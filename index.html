@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>«ЭЛЕКТРОСИЛА» - Регистрация пользователя</title>
+        <link rel="icon" href="https://bonus.sila.by/favicon.ico" type="image/x-icon">
+        <link rel='stylesheet' href='/css/bootstrap.min.css'>
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'>
+        <link rel="stylesheet" href="css/style.css">
+        <script type="text/javascript" src="https://sila.by/jquery-1.9.1.min.js"></script>
+        <script type="text/javascript" src="https://sila.by/maskedinput.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row main">
+                <div class="main-login main-center">
+                    <div class="cols-sm-10 header">
+                      <img  src="https://sila.by/img/logo2018_330x44.png" width="100%" alt="интернет-магазин ЭЛЕКТРОСИЛА" title="На главную!">
+                    </div>
+                    <div id="div-error" style="display: none;">
+                        <p class="error-text">Проверьте правильность заполнения выделенных полей</p>
+                    </div>
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <label for="name" class="cols-sm-2 control-label">Имя</label>
+                            <div class="cols-sm-10">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+                                    <input type="text" class="form-control" name="name" id="name" placeholder="Введите имя" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastname" class="cols-sm-2 control-label">Фамилия</label>
+                            <div class="cols-sm-10">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
+                                    <input type="text" class="form-control" name="lastname" id="lastname" placeholder="Введите фамилию" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone" class="cols-sm-2 control-label">Телефон</label>
+                            <div class="cols-sm-10">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa-phone fa" aria-hidden="true"></i></span>
+                                    <input type="text" class="form-control" name="phone" id="phone" placeholder="Введите телефон" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="cols-sm-2 control-label">Email</label>
+                            <div class="cols-sm-10">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+                                    <input type="text" class="form-control" name="email" id="email" placeholder="Введите Email" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="password" class="cols-sm-2 control-label">Пароль</label>
+                            <div class="cols-sm-10">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+                                    <input type="password" class="form-control" name="password" id="password" placeholder="Введите пароль" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="confirm" class="cols-sm-2 control-label">Повторите пароль</label>
+                            <div class="cols-sm-10">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+                                    <input type="password" class="form-control" name="confirm" id="confirm" placeholder="Повторите пароль" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group ">
+                            <button type="button" class="btn btn-primary btn-lg btn-block login-button">Регистрация</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
